@@ -1,7 +1,7 @@
 from sys import argv
-script =argv
+script=argv
 filename =argv
-txt =open(filename)
+txt =open("ex15sample.txt")
 print(f"Here is youe file {filename}: ")
 print(txt.read())
 print("Type the filename again: ")
