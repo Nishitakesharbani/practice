@@ -2,8 +2,7 @@ ten_things="Apple orange crows telephone light sugar"
 
 print("Wait there are not  10 things in the list let's fix it ")
 stuff= ten_things.split(' ')
-more_stuff =("Day", "night", "song","frisbee",
-             "corn" ," Bananna"," girl", "Boy")
+more_stuff =("Day", "night", "song","frisbee","corn" ," Bananna"," girl", "Boy")
 
 while len(stuff)!=10:
     next_one=more_stuff.pop()
