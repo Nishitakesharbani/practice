@@ -30,8 +30,6 @@ print("Florida appreviation is: ",states['Florida'])
 
 # do it by using the states then cities dict
 print('_'*10)
-print("Michingan has is: ",cities[states['Michigan']])
-print("Michingan has is: ",cities[states['Michigan']])
 
 #print every state appreviation
 print('_'*10)
@@ -47,7 +45,7 @@ for abbrev,city in list(cities.items()):
 print("_"*10)
 for state, abbrev in list(states.items()):
     print(f"{states} is abbreviated {abbrev}")
-    print(f"and has the {city[abbrev]}")
+    print(f"and has the {cities[abbrev]}")
 
 print("_"*10)
 state=states.get('Texas')
